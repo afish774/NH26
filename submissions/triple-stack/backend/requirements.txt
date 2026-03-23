@@ -1,0 +1,57 @@
+# FastAPI and server
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Database
+sqlalchemy
+alembic
+psycopg2-binary
+
+# AI/ML - RAG
+chromadb
+sentence-transformers
+
+# Advanced RAG (Phase 2)
+langchain>=0.3.0
+langgraph>=0.2.0
+langchain-huggingface
+langchain-groq
+langchain-google-genai
+rank_bm25
+numpy
+
+# Cross-encoder for reranking
+sentence-transformers  # already included, supports cross-encoders
+
+# LLM providers
+groq
+google-generativeai
+
+# Redis (caching, queuing, pub/sub)
+redis
+
+# Utils
+python-dotenv
+pydantic
+pydantic-settings
+
+# WebSockets
+websockets
+
+# Auth
+python-jose[cryptography]
+passlib[bcrypt]
+
+# HTTP client
+httpx
+
+# Async HTTP (network monitoring)
+aiohttp
+
+# Email parsing
+html2text
+
+# AWS (optional - for production)
+boto3
+# mangum  # For AWS Lambda deployment
